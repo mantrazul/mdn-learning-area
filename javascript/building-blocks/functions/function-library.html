@@ -32,6 +32,10 @@
     return Math.sqrt(num);
     }
 
+    function adition(num) {
+      return num + num;
+    }
+
     function factorial(num) {
       if (num < 0) return undefined;
       if (num === 0) return 1;
@@ -52,6 +56,7 @@
         para.textContent += `${num} cubed is ${cubed(num)}. `;
         para.textContent += `${num} factorial is ${factorial(num)}. `;
         para.textContent += `${num} root is ${root(num)}. `;
+        para.textContent += `${num} added to itself is ${adition(num)}. `;
       }
     });
     
